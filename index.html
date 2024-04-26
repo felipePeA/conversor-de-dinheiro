@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="./style1.css">
+   
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    </form>
+    <div class="informaçao">
+        <label for="text">Converter De</label>
+        <select name="Converter-de" id="minha-moeda">
+            <option value="meureal">Real Brasileiro</option>
+            <option value="meudolar">Dolar Americano</option>
+            <option value="meueuro">Euro Europeu</option>
+            <option value="meuyen">Iene Japones</option>
+            <option value="meufranco">Franco Suiço</option>
+            <option value="meulira">Lira Turca</option>
+            <option value="meuwon">Won Coreano</option>
+            <option value="meubitcoin">Bitcoin</option>
+        </select>
+        <img class="icone-seu" src="./icones.img/icone real.png">
+        <label for="text">Converter Para</label>
+        <select name="Converter-para" id="moeda-desejada">
+            <option value="real">Real Brasileiro</option>
+            <option value="dolar">Dolar Americano</option>
+            <option value="euro">Euro Europeu</option>
+            <option value="yen">Iene Japones</option>
+            <option value="franco">Franco Suiço</option>
+            <option value="lira">Lira Turca</option>
+            <option value="won">Won Coreano</option>
+            <option value="bitcoin">Bitcoin</option>
+        </select>
+        <img class="icone-troca" src="./icones.img/Icone Franco.png">
+        <label for="text">Digite o Valor a ser Convertido</label>
+        <input class="input-currency" placeholder=" R$ 10.000,00">
+        <button onclick="convertValues()" class="convert-button">Converter</button>
+        <div class="resultado">
+            <img class="icone-teu" src="./icones.img/icone real.png">
+            <img class="troca" src="./icones.img/icons8-troca.gif">
+            <img class="icone-trocas" src="./icones.img/Icone Dolar.png">
+            <p class="currency-value"> R$ 0,00 </p>
+    
+        </div>
+    </div>
+   
+
+    <script src="./scripts1.js"></script>  
+</body>
+
+</html>

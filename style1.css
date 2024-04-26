@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: brown;
+}
+.imagens-trocas {
+    display: none;
+}
+.informaçao {
+    background-color: aliceblue;
+    width: 360px;
+    height: 740px;
+    border: none;
+    margin: auto;
+    margin-top: 30px;
+    }
+label {
+
+    font-size: 27px;
+    font-weight: 400;
+    display: block;
+    margin: 15px 10px 10px 15px;
+    padding-top: 30px;
+}
+select {
+    font-size: 23px;
+    font-weight: 400;
+    margin-left: 30px;
+    border: none;
+}
+input {
+    font-size: 27px;
+    font-weight: 400;
+    margin-left: 10px;
+    width: 190px;
+    border: none;
+}
+.convert-button {
+    font-size: 23px;
+    font-weight: 400;
+    margin-left: 120px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+
+
+img {
+    margin: 5px;
+    padding: auto;
+    margin-left: 20px;
+}
+p {
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 120px;
+    
+
+}
+
+
+
